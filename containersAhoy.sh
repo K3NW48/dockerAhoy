@@ -1,6 +1,4 @@
-#!/bin/bash
-
-# DOCKER STUFF
+#!/usr/bin/env bash
 
 # name displayed on https://moneroocean.stream/
 read -p "rig id to be displayed at https://moneroocean.stream/  : " RIG_NAME
