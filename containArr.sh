@@ -63,7 +63,7 @@ mkdir xmrig/build
 function QUICK_FIG(){
 cat << EOF > xmrig/build/config.json
 {
-    "autosave": false,
+    "autosave": true,
     "cpu": true,
     "opencl": false,
     "cuda": false,
