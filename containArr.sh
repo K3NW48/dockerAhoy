@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # name displayed on https://moneroocean.stream/
-read -p "rig id to be displayed at https://moneroocean.stream/  : " RIG_NAME
+read -p "rig id to be displayed at https://moneroocean.stream/ : " RIG_NAME
 
 # WALLET ADDRESS?
 WALLET_ADDRESS=""
@@ -53,7 +53,7 @@ done
 #for readability
 echo " "
 
-echo "Run \"docker run --rm -it nbiish/ahoyalpine\" to reconfigure me next time!  ^.^ "
+echo "Run \"docker run --rm -it nbiish/ahoy\" to reconfigure me next time!  ^.^ "
 echo " "
 sleep 4s
 git clone https://github.com/moneroocean/xmrig.git
