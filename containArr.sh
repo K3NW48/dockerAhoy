@@ -56,9 +56,6 @@ echo " "
 echo "Run \"docker run --rm -it nbiish/ahoy\" to reconfigure me next time!  ^.^ "
 echo " "
 sleep 4s
-git clone https://github.com/moneroocean/xmrig.git
-mkdir xmrig/build
-
 
 function QUICK_FIG(){
 cat << EOF > xmrig/build/config.json
@@ -94,5 +91,4 @@ echo " "
 sleep 2s
 
 QUICK_FIG
-cd xmrig/build && cmake .. && make
-./xmrig
+./xmrig/build/xmrig
